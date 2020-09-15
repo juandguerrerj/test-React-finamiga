@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.App h2,ul{
+  text-align: left;
+}
+
+.App img{
+  width: 30px;
+  height: 30px;
+}
+
+.textField{
+  height: 32px;
+  width: 200px;
+  border: 1px solid #e5e5e5;
+  padding: 0 32px 0 16px;
+}
+
+.textField:hover {
+  cursor: pointer;
+}
+  
+.btnBuscar{
+  height: 34px;
+  width: 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+  
+.barraBusqueda{
+  float: right;
+  padding: 20px;
+}
+
+.links{  
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#h2inicio{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contactsTittle{
+  text-align: center;
+}
